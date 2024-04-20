@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-20T10:12:37.576Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="oNpRRSdr4pj70O254VGv" version="24.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-20T10:22:54.964Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="36qYKOnWfcLTHJOQJDjA" version="24.2.7" type="github">
   <diagram name="Seite-1" id="XCRWzCrRmgZ40TWUJP_y">
     <mxGraphModel dx="1434" dy="806" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,16 +10,13 @@
         <mxCell id="PPIHRvY5elDA7Rib8psV-3" value="portainer:9443" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontStyle=1;gradientColor=none;glass=0;shadow=0;labelBorderColor=none;perimeter=rectanglePerimeter;verticalAlign=middle;align=center;horizontal=1;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="480" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPIHRvY5elDA7Rib8psV-4" value="node-red:1880" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;fontColor=#000000;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="1">
-          <mxGeometry x="480" y="150" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="PPIHRvY5elDA7Rib8psV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=0;fontColor=#FF6E86;strokeColor=#FF6E86;endArrow=classic;endFill=1;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-11" target="PPIHRvY5elDA7Rib8psV-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="PPIHRvY5elDA7Rib8psV-4" value="node-red:1880" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Lucida Console;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="480" y="150" width="180" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PPIHRvY5elDA7Rib8psV-11" value="influxdb:8086" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;fontStyle=1;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="150" y="140" width="110" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PPIHRvY5elDA7Rib8psV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#FF6E86;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-4" target="PPIHRvY5elDA7Rib8psV-22">
+        <mxCell id="PPIHRvY5elDA7Rib8psV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#b85450;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-4" target="PPIHRvY5elDA7Rib8psV-22">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="80" as="targetPoint" />
             <Array as="points">
@@ -27,10 +24,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="PPIHRvY5elDA7Rib8psV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;startArrow=classic;startFill=1;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-22" target="PPIHRvY5elDA7Rib8psV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="PPIHRvY5elDA7Rib8psV-22" value="&lt;b&gt;&lt;u&gt;Database&lt;/u&gt;&lt;/b&gt;&lt;div&gt;raspberry_live&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.document;fillColor=#1ba1e2;fontColor=#000000;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="40" y="30" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PPIHRvY5elDA7Rib8psV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-22" target="PPIHRvY5elDA7Rib8psV-11">
+        <mxCell id="PPIHRvY5elDA7Rib8psV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;fillColor=#1ba1e2;strokeColor=#006EAF;startArrow=classic;startFill=1;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-22" target="PPIHRvY5elDA7Rib8psV-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPIHRvY5elDA7Rib8psV-25" value="&lt;b&gt;&lt;u&gt;storagepath&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;i&gt;/home/gardener/node-red&lt;/i&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.plaque;dx=6;whiteSpace=wrap;labelPosition=center;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="700" y="210" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPIHRvY5elDA7Rib8psV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-4" target="PPIHRvY5elDA7Rib8psV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PPIHRvY5elDA7Rib8psV-27" value="&lt;b&gt;&lt;u&gt;storagepath&lt;/u&gt;&lt;/b&gt;&lt;br&gt;&lt;div&gt;&lt;i&gt;/home/gardener/node-red&lt;/i&gt;&lt;/div&gt;" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.plaque;dx=6;whiteSpace=wrap;labelPosition=center;align=center;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PPIHRvY5elDA7Rib8psV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="PPIHRvY5elDA7Rib8psV-11" target="PPIHRvY5elDA7Rib8psV-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
